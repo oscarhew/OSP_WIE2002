@@ -43,9 +43,9 @@
           <li class="nav-item"><a class="nav-link" href="organizations.html">Organizations</a></li>
         </ul>
       </div>
-      <a class="px-1" href="index.html">
+      <a class="px-1" href="index.php">
         <img src="assets/img/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
-        <h1 class="logo"><a href="index.html">POVERTY</a></h1>
+        <h1 class="logo"><a href="index.php">POVERTY</a></h1>
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
