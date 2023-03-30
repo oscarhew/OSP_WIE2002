@@ -26,7 +26,6 @@ body {
   # Header
   --------------------------------------------------------------*/
   #header {
-    background: #d3d3d3;
     transition: all 0.5s;
   }
   #header.header-scrolled {
@@ -49,6 +48,14 @@ body {
   /**
   * Desktop Navigation 
   */
+  .gradient-custom {
+    background: #c471f5;
+  
+    background: -webkit-linear-gradient(to right, #089f8f, #2a4858);
+  
+    background: linear-gradient(to right, #089f8f, #2a4858)
+  }
+
   .navbar-light .navbar-nav .nav-link {
     color: rgba(252, 252, 252, 0.55);
   }
