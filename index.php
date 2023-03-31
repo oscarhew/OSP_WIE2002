@@ -25,6 +25,8 @@
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
 </head>
