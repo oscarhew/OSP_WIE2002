@@ -69,8 +69,8 @@
           <div class="carousel-item active" style="background-image: url(assets/img/slide/index_background.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2>Poverty</h2>
-                <p>
+                <h2 class="animate__animated animate__fadeInDown">Poverty</h2>
+                <p class="animate__animated animate__fadeInUp">
 
                   The term poverty refers to the state or condition in which people or communities lack the financial resources and essentials
                   for a minimum standard of living. As such, their basic human needs cannot be met. Poverty-stricken people and families may go

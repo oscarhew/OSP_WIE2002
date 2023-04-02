@@ -233,7 +233,7 @@ body {
   #hero .btn-get-started:hover {
     background: #ffffff;
   }
-  @media (max-width: 992px) {
+  /* @media (max-width: 992px) {
     #hero {
       height: 100vh;
     }
@@ -254,7 +254,7 @@ body {
   @media (max-height: 500px) {
     #hero {
       height: 120vh;
-    }
+    } */
   }
 
   

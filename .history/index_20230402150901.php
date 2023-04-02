@@ -31,7 +31,7 @@
 
 <body class="d-flex flex-column min-vh-100">
   <!-- ======= Header ======= -->
-  <nav id="header" class="navbar sticky-top navbar-expand-lg navbar-dark gradient-custom bg-dark p-2">
+  <nav id="header" class="navbar sticky-top navbar-dark gradient-custom bg-dark p-2">
     <div class="container-fluid">
       <a class="px-1" href="index.php">
         <img src="assets/img/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
