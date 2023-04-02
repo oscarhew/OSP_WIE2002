@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poverty</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poverty</title>
 
-    <!-- Favicon -->
-    <link href="assets/img/logo.png" rel="icon">
+  <!-- Favicon -->
+  <link href="assets/img/logo.png" rel="icon">
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Bahnschrift:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Bahnschrift:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- Animate.css -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
 
-    <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-    <!-- Boxicons -->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
   <!-- ======= Header ======= -->
   <nav id="header" class="navbar sticky-top navbar-expand-lg navbar-dark gradient-custom bg-dark p-2">
     <div class="container-fluid">
-      
-      <div class="collapse navbar-collapse justify-content-start" id="navbarNavAltMarkup">
+      <a class="px-1" href="index.php">
+        <img src="assets/img/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
+        <h1 class="logo"><a href="index.php">POVERTY</a></h1>
+      </a>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
           <li class="nav-item"><a class="nav-link" href="effects.html">Effects</a></li>
@@ -45,13 +47,9 @@
           <li class="nav-item"><a class="nav-link" href="organizations.html">Organizations</a></li>
         </ul>
       </div>
-      <a class="px-1" href="index.php">
-        <img src="assets/img/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
-        <h1 class="logo"><a href="index.php">POVERTY</a></h1>
-      </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
@@ -71,13 +69,13 @@
           <div class="carousel-item active" style="background-image: url(assets/img/slide/index_background.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Poverty</h2>
-                <p class="animate__animated animate__fadeInUp">
-                  
-                  The term poverty refers to the state or condition in which people or communities lack the financial resources and essentials 
-                  for a minimum standard of living. As such, their basic human needs cannot be met. Poverty-stricken people and families may go 
+                <h2>Poverty</h2>
+                <p>
+
+                  The term poverty refers to the state or condition in which people or communities lack the financial resources and essentials
+                  for a minimum standard of living. As such, their basic human needs cannot be met. Poverty-stricken people and families may go
                   without proper housing, clean water, healthy food, and medical attention.
-                
+
                 </p>
                 <a href="definition.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
@@ -89,13 +87,13 @@
     </section><!-- End Hero -->
 
     <!-- Level of Poverty Picture-->
-    <section class = "">
+    <section class="">
       <div class="container-fliud">
-      <div class="section-title">
+        <div class="section-title">
           <h2>Levels Of Poverty</h2>
-          <img src = "assets/img/levelOfPoverty.png" class = "image-center">
-          <p class = "italic">Reference: https://www.jrf.org.uk/our-work/what-is-poverty</p>
-      </div>
+          <img src="assets/img/levelOfPoverty.png" class="image-center">
+          <p class="italic">Reference: https://www.jrf.org.uk/our-work/what-is-poverty</p>
+        </div>
       </div>
     </section>
 
@@ -104,7 +102,7 @@
       <div class="container-fluid">
         <div class="section-title">
           <h2>Team</h2>
-          <p >Group member</p>
+          <p>Group member</p>
         </div>
         <div class="row mx-2">
           <div class="col-lg-6 col-sm-6">
@@ -173,9 +171,8 @@
     <span><i class="bi bi-arrow-up-circle"></i></span>
   </a>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

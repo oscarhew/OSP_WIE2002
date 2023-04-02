@@ -51,13 +51,11 @@ h1, h2, h3, h4, h5, h6 {
 .gradient-custom {
   background: #c471f5;
 
-  background: -webkit-linear-gradient(to right, #A7CAB1,  #310A31);
-
-  background: linear-gradient(to right, #A7CAB1, #310A31)
+  background: linear-gradient(to right, #2c3e50, #bdc3c7)
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #310A31;
+  color: #32292F;
 }
 
 .navbar-nav .nav-item{
@@ -85,6 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #5cb874;
   color: #3c2121;
 }
+
   
   /*--------------------------------------------------------------
 # Back to top button
@@ -266,6 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   
   .home_description{
     margin-bottom: var(--mb-1);
+    text-align: justify;
   }
   
   .home_buttons{                                
@@ -283,20 +283,22 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     padding-top: 1rem;
+    border-radius: 45px;
   }
   
   .factor_content{
     position: relative;
     background: var(--container-color);
-    border-radius: 1rem;
-    padding: 1.5rem 0 1rem 0;
+    border-radius: 2rem;
+    padding: 1.5rem 1rem 1rem 1rem;
     text-align: center;
     overflow: hidden;
+    background: #A7CAB1;
   }
   
   .factor_img{
     width: 90px;
-    transition: .3s;
+    margin: 15px;
   }
   
   .factor_subtitle,
@@ -307,6 +309,7 @@ h1, h2, h3, h4, h5, h6 {
   .factor_subtitle{
     font-size: var(--smaller-font-size);
     margin-bottom: var(--mb-0-5);
+    text-align: justify;
   }
   
   .factor_title,
@@ -333,15 +336,7 @@ h1, h2, h3, h4, h5, h6 {
   .factor_content:hover{
       background-color: #c3e7cd;
     }
-  
 
-  .factor_content:hover .factor_img{
-    transform: translateY(-.5rem);
-  }
-  
-  .factor_content:hover .factor_button{
-    right: 0;
-  }
 
   /*=============== NGO ===============*/
 .NGO_container{

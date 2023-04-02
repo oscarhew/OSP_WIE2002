@@ -50,14 +50,12 @@ body {
   */
   .gradient-custom {
     background: #c471f5;
-  
-    background: -webkit-linear-gradient(to right, #A7CAB1,  #310A31);
-  
-    background: linear-gradient(to right, #A7CAB1, #310A31)
+ 
+    background: linear-gradient(to right, #2c3e50, #bdc3c7)
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    color: #310A31;
+    color: #32292F;
   }
 
   .navbar-nav .nav-item{
