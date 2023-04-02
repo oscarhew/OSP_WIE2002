@@ -18,14 +18,13 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Bahnschrift", sans-serif;
   }
   
   /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
   #header {
-    background: #d3d3d3;
     transition: all 0.5s;
   }
   #header.header-scrolled {
@@ -39,7 +38,7 @@ body {
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #5cb874;
+    color: #081d0d;
   }
   
   /*--------------------------------------------------------------
@@ -48,6 +47,14 @@ body {
   /**
   * Desktop Navigation 
   */
+  .gradient-custom {
+    background: #c471f5;
+  
+    background: -webkit-linear-gradient(to right, #089f8f, #2a4858);
+  
+    background: linear-gradient(to right, #089f8f, #2a4858)
+  }
+
   .navbar-light .navbar-nav .nav-link {
     color: rgba(252, 252, 252, 0.55);
   }
