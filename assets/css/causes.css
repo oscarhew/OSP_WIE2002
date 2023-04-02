@@ -1,89 +1,90 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
-    overflow-x: hidden;
-    font-family: "Comic Sans MS", sans-serif;
-    color: #444444;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #be4074;
-  }
-  
-  a:hover {
-    color: #4b083d;
-    text-decoration: none;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Bahnschrift", sans-serif;
-  }
-  
-  /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
-  #header {
-    transition: all 0.5s;
-  }
-  #header.header-scrolled {
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  }
-  #header .logo {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #081d0d;
-  }
-  
-  /*--------------------------------------------------------------
-  # Navigation Menu
-  --------------------------------------------------------------*/
-  /**
-  * Desktop Navigation 
-  */
-  .gradient-custom {
-    background: #c471f5;
-  
-    background: -webkit-linear-gradient(to right, #089f8f, #2a4858);
-  
-    background: linear-gradient(to right, #089f8f, #2a4858)
-  }
+  overflow-x: hidden;
+  font-family: "Comic Sans MS", sans-serif;
+  color: #444444;
+}
 
-  .navbar-light .navbar-nav .nav-link {
-    color: rgba(252, 252, 252, 0.55);
-  }
+a {
+  text-decoration: none;
+  color: #be4074;
+}
 
-  .navbar-nav .nav-item{
-    color: #5cb874 !important;
-  }
-  .navbar-nav .nav-item .nav-link:hover {
-    color: #ff0000;
-  }
+a:hover {
+  color: #4b083d;
+  text-decoration: none;
+}
 
-  .navbar-nav .nav-item .active {
-    color: #a1164b !important;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bahnschrift", sans-serif;
+}
 
-  .navbar-nav .nav-item .getstarted, .navbar-nav .nav-item .getstarted:focus{
-    color: #5cb874;
-    padding: 8px 25px;
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 4px;
-    border: 2px solid #5cb874;
-    transition: 0.3s;
-    font-size: 14px;
-  }
-  .navbar-nav .nav-item .getstarted:hover, .navbar-nav .nav-item .getstarted:focus:hover {
-    background: #5cb874;
-    color: #3c2121;
-  }
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+}
+#header.header-scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+#header .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #081d0d;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.gradient-custom {
+  background: #c471f5;
+
+  background: -webkit-linear-gradient(to right, #A7CAB1,  #310A31);
+
+  background: linear-gradient(to right, #A7CAB1, #310A31)
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #310A31;
+}
+
+.navbar-nav .nav-item{
+  color: #5cb874 !important;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff0000;
+}
+
+.navbar-nav .nav-item .active {
+  color: #a1164b !important;
+}
+
+.navbar-nav .nav-item .getstarted, .navbar-nav .nav-item .getstarted:focus{
+  color: #5cb874;
+  padding: 8px 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 4px;
+  border: 2px solid #5cb874;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.navbar-nav .nav-item .getstarted:hover, .navbar-nav .nav-item .getstarted:focus:hover {
+  background: #5cb874;
+  color: #3c2121;
+}
   
   /*--------------------------------------------------------------
 # Back to top button

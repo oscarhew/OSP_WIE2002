@@ -30,10 +30,19 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-
     <!-- ======= Header ======= -->
-    <nav id="header" class="navbar sticky-top navbar-expand-md navbar-light bg-dark p-2">
-        <div class="container p-0">
+    <nav id="header" class="navbar sticky-top navbar-expand-lg navbar-dark gradient-custom bg-dark p-2">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse justify-content-start" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="effects.html">Effects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="graphs.html">Graphs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="organizations.html">Organizations</a></li>
+                </ul>
+            </div>
             <a class="px-1" href="index.php">
                 <img src="assets/img/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
                 <h1 class="logo"><a href="index.php">POVERTY</a></h1>
@@ -43,201 +52,6 @@
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="effects.html">Effects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
-                    <li class="nav-item"><a class="nav-link" href="graphs.html">Graphs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="organizations.html">Organizations</a></li>
-                </ul>
-            </div>
         </div>
     </nav>
     <!-- End Header -->
-
-    <!-- ======= HOME ======= -->
-    <div id="home" class="container carousel carousel-dark slide home py-5 d-flex flex-column" data-bs-ride="carousel"
-        data-bs-interval="false">
-        <div class="carousel-indicators mt-5">
-            <button type="button" data-bs-target="#home" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#home" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#home" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 text-center pt-5 pb-3">
-                        <img src="assets/img/land/landpollution1.png" alt="" class="img-fluid home_img">
-                    </div>
-                    <div class="col-sm-12 col-md-6 home_data py-5">
-                        <h3 class="home_subtitle">Definition</h3>
-                        <p class="home_description">Land pollution is a serious issue.
-                            Soil contamination is a genuine problem that includes both governmental forces and
-                            citizens because of its direct influence on the environment and, as a result, on the
-                            health of humans, animals, and plants.
-                        </p>
-                        <div class="home_button">
-                            <a href="#" class="button">Get more information</a>
-                            <a href="#" class="button--link button--flex">
-                                <i class='bx bx-right-arrow-alt button_icon'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 text-center pt-5 pb-3">
-                        <img src="assets/img/land/landpollution3.png" alt="" class="img-fluid home_img">
-                    </div>
-                    <div class="col-sm-12 col-md-6 home_data py-5">
-                        <h3 class="home_subtitle">Issue and concern</h3>
-                        <p class="home_description">Soil is a finite resource that cannot be replenished.
-                            It can degrade quickly (in a few years or decades), yet it takes thousands of years to
-                            develop and rejuvenate.
-
-                        </p>
-
-                        <div class="home_button">
-                            <a href="#" class="button">Get more information</a>
-                            <a href="#" class="button--link button--flex">
-
-                                <i class='bx bx-right-arrow-alt button_icon'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 text-center pt-5 pb-3">
-                        <img src="assets/img/land/landpollution4.png" alt="" class="img-fluid home_img">
-                    </div>
-                    <div class="col-sm-12 col-md-6 home_data py-5">
-                        <h3 class="home_subtitle">Concern</h3>
-                        <p class="home_description">What causes land pollution, what are its effects and what are
-                            the possible solutions to prevent it?
-
-                        </p>
-
-                        <div class="home_button">
-                            <a href="#" class="button">Get more information</a>
-                            <a href="#" class="button--link button--flex">
-
-                                <i class='bx bx-right-arrow-alt button_icon'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ======= Factor Section ======= -->
-    <section class="section factor" id="factor">
-        <h2 class="section-title">Factors</h2>
-
-        <div class="factor_container container grid">
-            <div class="factor_content">
-                <img src="assets/img/land/city.png" alt="" class="factor_img">
-                <h3 class="factor_title">Urbanization and Construction</h3>
-                <span class="factor_subtitle">While urbanization is not in itself littering, large quantities of people
-                    living, producing trash and littering in a dense area does inevitably lead to land pollution.
-                </span>
-
-
-                <button class="button factor_button">
-                    <i class="fa-solid fa-circle-heart"></i>
-                </button>
-            </div>
-            <div class="factor_content">
-                <img src="assets/img/land/mine.png" alt="" class="factor_img">
-                <h3 class="factor_title">Mining</h3>
-                <span class="factor_subtitle">Mining is the extraction of minerals and other geological materials from
-                    the ground, which are then used for a wide range of purposes, including but not limited to,
-                    producing gasoline for automobiles, generating electricity, and selling materials such as gold and
-                    silver. </span>
-
-
-                <button class="button factor_button">
-                    <i class="fa-solid fa-circle-heart"></i>
-                </button>
-            </div>
-            <div class="factor_content">
-                <img src="assets/img/land/agriculture.png" alt="" class="factor_img">
-                <h3 class="factor_title">Agriculture</h3>
-                <span class="factor_subtitle">Agriculture is foundational for both everyday life, as well as the economy
-                    as a whole. It also, however, can have profound effects on the planet. Agricultural pollution occurs
-                    when contamination created as a by-product of raising livestock and growing food crops is released
-                    into the environment, and the contamination is vast.
-                </span>
-
-
-                <button class="button factor_button">
-                    <i class="fa-solid fa-circle-heart"></i>
-                </button>
-            </div>
-        </div>
-    </section>
-    <!-- End Why Us Section -->
-
-    <!--==================== NGO ====================-->
-    <section class="section NGO">
-        <div class="NGO_container container grid">
-            <div class="NGO_data">
-                <h1 class="NGO_title">Get to know NGOs</h1>
-                <h2 class="NGO_title">Follow up<br>with the lastest steps of prevention for land pollution!</h2>
-                <a href="#" class="button">Get Started!</a>
-            </div>
-
-            <img src="assets/img/land/charity.png" alt="" class="NGO_img">
-
-        </div>
-
-
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="row">
-                <h3>References</h3>
-                <ol>
-                    <li>https://www.who.int/data/gho/data/themes/air-pollution</li>
-                    <li>https://ourworldindata.org/air-pollution#:~:text=Air%20pollution%20is%20attributed%20to,in%20rates%20across%20the%20world.
-                    </li>
-                </ol>
-            </div>
-        </div>
-    </section>
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="mt-auto">
-        <div class="container">
-            <h3>Pollution</h3>
-            <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-            <div class="copyright">
-                &copy; Copyright <strong><span>Pollution</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                Designed by
-                <a href="#">Group 11 | Pollution | WIE2002</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top -->
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
-        <span><i class="bi bi-arrow-up-circle"></i></span>
-    </a>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>

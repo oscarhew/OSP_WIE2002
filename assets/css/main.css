@@ -51,13 +51,13 @@ body {
   .gradient-custom {
     background: #c471f5;
   
-    background: -webkit-linear-gradient(to right, #089f8f, #2a4858);
+    background: -webkit-linear-gradient(to right, #A7CAB1,  #310A31);
   
-    background: linear-gradient(to right, #089f8f, #2a4858)
+    background: linear-gradient(to right, #A7CAB1, #310A31)
   }
 
-  .navbar-light .navbar-nav .nav-link {
-    color: rgba(252, 252, 252, 0.55);
+  .navbar-dark .navbar-nav .nav-link {
+    color: #310A31;
   }
 
   .navbar-nav .nav-item{
@@ -501,6 +501,13 @@ body {
     text-align: center;
     padding-bottom: 30px;
   }
+
+  .section-title .image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .section-title h2 {
     font-size: 32px;
     font-weight: bold;
@@ -535,6 +542,10 @@ body {
     font-size: 16px;
     color: #000000;
   }
+
+  .section-title .italic {
+    font-size: 10px;
+  }
   
   /*--------------------------------------------------------------
   # Team
@@ -547,7 +558,7 @@ body {
     padding: 10px 20px;
     width: 15rem;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 45px;
   }
   .team .member img {
     width: 150px;

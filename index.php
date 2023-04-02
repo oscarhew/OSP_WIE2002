@@ -74,10 +74,12 @@
                 <h2 class="animate__animated animate__fadeInDown">Poverty</h2>
                 <p class="animate__animated animate__fadeInUp">
                   
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                  
-                  <a href="definition.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                  The term poverty refers to the state or condition in which people or communities lack the financial resources and essentials 
+                  for a minimum standard of living. As such, their basic human needs cannot be met. Poverty-stricken people and families may go 
+                  without proper housing, clean water, healthy food, and medical attention.
+                
+                </p>
+                <a href="definition.html" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
           </div>
@@ -85,6 +87,17 @@
         </div>
       </div>
     </section><!-- End Hero -->
+
+    <!-- Level of Poverty Picture-->
+    <section class = "">
+      <div class="container-fliud">
+      <div class="section-title">
+          <h2>Levels Of Poverty</h2>
+          <img src = "assets/img/levelOfPoverty.png" class = "image-center">
+          <p class = "italic">Reference: https://www.jrf.org.uk/our-work/what-is-poverty</p>
+      </div>
+      </div>
+    </section>
 
     <!-- ======= Team Section ======= -->
     <section class="team section-bg">
