@@ -42,7 +42,7 @@
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
           <li class="nav-item"><a class="nav-link" href="effects.html">Effects</a></li>
-          <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
+          <li class="nav-item"><a class="nav-link" href="solution.html">Solutions</a></li>
           <li class="nav-item"><a class="nav-link" href="graphs.html">Graphs</a></li>
           <li class="nav-item"><a class="nav-link" href="organizations.html">Organizations</a></li>
         </ul>
@@ -166,7 +166,8 @@
   </footer>
   <!-- End Footer -->
 
-  <!-- Back to Top -->
+  <!-- Back to Top,
+  can be removed later--> 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
     <span><i class="bi bi-arrow-up-circle"></i></span>
   </a>
