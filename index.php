@@ -110,7 +110,7 @@
               <img src="assets/img/team/dingXuan.jpeg" class="rounded" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Hew Ding Xuan</h4>
-                <p class="card-text">matric number</p>
+                <p class="card-text">U2005416</p>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
               <img src="assets/img/team/ziHao.jpeg" class="rounded" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Tan Zi Hao</h4>
-                <p class="card-text">matric number</p>
+                <p class="card-text">U2005328</p>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
               <img src="assets/img/team/wanChyi.jpeg" class="rounded" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Liewn Wan Chyi</h4>
-                <p class="card-text">matric number</p>
+                <p class="card-text">U2005418</p>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@
               <img src="assets/img/team/shirley.jpeg" class="rounded" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Mah Shirley</h4>
-                <p class="card-text">matric number</p>
+                <p class="card-text">U2005285</p>
               </div>
             </div>
           </div>
