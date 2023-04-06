@@ -42,7 +42,7 @@
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
           <li class="nav-item"><a class="nav-link" href="effects.html">Effects</a></li>
-          <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
+          <li class="nav-item"><a class="nav-link" href="solution.html">Solutions</a></li>
           <li class="nav-item"><a class="nav-link" href="graphs.html">Graphs</a></li>
           <li class="nav-item"><a class="nav-link" href="organizations.html">Organizations</a></li>
         </ul>
@@ -110,7 +110,7 @@
               <img src="assets/img/team/dingXuan.jpeg" class="rounded" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Hew Ding Xuan</h4>
-                <p class="card-text">matric number</p>
+                <p class="card-text">U2005416</p>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
               <img src="assets/img/team/ziHao.jpeg" class="rounded" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Tan Zi Hao</h4>
-                <p class="card-text">matric number</p>
+                <p class="card-text">U2005328</p>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
               <img src="assets/img/team/wanChyi.jpeg" class="rounded" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Liewn Wan Chyi</h4>
-                <p class="card-text">matric number</p>
+                <p class="card-text">U2005418</p>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@
               <img src="assets/img/team/shirley.jpeg" class="rounded" alt="...">
               <div class="card-body">
                 <h4 class="card-title">Mah Shirley</h4>
-                <p class="card-text">matric number</p>
+                <p class="card-text">U2005285</p>
               </div>
             </div>
           </div>
@@ -166,7 +166,8 @@
   </footer>
   <!-- End Footer -->
 
-  <!-- Back to Top -->
+  <!-- Back to Top,
+  can be removed later--> 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
     <span><i class="bi bi-arrow-up-circle"></i></span>
   </a>

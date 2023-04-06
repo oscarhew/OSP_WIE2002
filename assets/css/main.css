@@ -7,21 +7,21 @@ body {
     font-family: "Comic Sans MS", sans-serif;
     color: #444444;
   }
-  
+
   a {
     text-decoration: none;
     color: #be4074;
   }
-  
+
   a:hover {
     color: #4b083d;
     text-decoration: none;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-family: "Bahnschrift", sans-serif;
   }
-  
+
   /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
@@ -41,16 +41,16 @@ body {
     text-transform: uppercase;
     color: #081d0d;
   }
-  
+
   /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
   /**
-  * Desktop Navigation 
+  * Desktop Navigation
   */
   .gradient-custom {
     background: #c471f5;
- 
+
     background: linear-gradient(to right, #2c3e50, #bdc3c7)
   }
 
@@ -83,7 +83,7 @@ body {
     background: #5cb874;
     color: #3c2121;
   }
-  
+
   /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -98,18 +98,18 @@ body {
   border-radius: 4px;
   transition: all 0.4s;
   }
-  
+
   .back-to-top .bi {
   font-size: 24px;
   color: #e8efcd;
   line-height: 0;
   }
-  
+
   .back-to-top:hover {
   background: #e8efcd;
   color: #354f52;
   }
-  
+
   .back-to-top .bi:hover{
   color: #354f35;
   }
@@ -136,7 +136,7 @@ body {
   }
   #hero .carousel-item::before {
     content: "";
-    
+
   }
   #hero .carousel-container {
     display: flex;
@@ -257,7 +257,7 @@ body {
     }
   }
 
-  
+
   /*--------------------------------------------------------------
   # Why Us
   --------------------------------------------------------------*/
@@ -482,7 +482,7 @@ body {
   .portfolio-details .portfolio-description p {
     padding: 0;
   }
-  
+
 
   /*--------------------------------------------------------------
   # Sections General
@@ -490,11 +490,11 @@ body {
   section {
     padding: 60px 0;
   }
-  
+
   .section-bg {
     background-color: #c9dce8ec;
   }
-  
+
   .section-title {
     text-align: center;
     padding-bottom: 30px;
@@ -544,7 +544,7 @@ body {
   .section-title .italic {
     font-size: 10px;
   }
-  
+
   /*--------------------------------------------------------------
   # Team
   --------------------------------------------------------------*/
