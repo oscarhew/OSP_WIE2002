@@ -337,29 +337,6 @@ h1, h2, h3, h4, h5, h6 {
       background-color: #c3e7cd;
     }
 
-
-  /*=============== NGO ===============*/
-.NGO_container{
-    background: var(--container-color);
-    border-radius: 1rem;
-    padding: 2.5rem 0 1.5rem;
-    row-gap: .75rem;
-  }
-  
-  .NGO_data{
-    text-align: center;
-  }
-  
-  .NGO_title{
-    font-size: var(--h2-font-size);
-    margin-bottom: var(--mb-2);
-  }
-  
-  .NGO_img{
-    width: 200px;
-    justify-self: center;
-  }
-
     /*========== Font and typography ==========*/
 
   
@@ -399,12 +376,14 @@ h1, h2, h3, h4, h5, h6 {
   /*=============== REUSABLE CSS CLASSES ===============*/
   .section{
     padding: 4.5rem 0 2rem;
+    background-color: #DAFFEF;
   }
   
   .section_title{
     font-size: var(--h2-font-size);
     margin-bottom: var(--mb-2);
     text-align: center;
+    margin: auto;
   }
   
   /*=============== LAYOUT ===============*/
@@ -475,7 +454,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   
     .section{
-      padding: 7rem 0 2rem;
+      padding: 4rem 0 2rem;
     }
   
     .nav{
