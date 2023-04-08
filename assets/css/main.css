@@ -627,3 +627,7 @@ body {
     font-size: 11px;
     vertical-align: baseline;
   }
+
+  .opa{
+    opacity:0.35;
+  }
