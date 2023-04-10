@@ -84,35 +84,7 @@ body {
     color: #3c2121;
   }
 
-  /*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #354f52;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
-  }
 
-  .back-to-top .bi {
-  font-size: 24px;
-  color: #e8efcd;
-  line-height: 0;
-  }
-
-  .back-to-top:hover {
-  background: #e8efcd;
-  color: #354f52;
-  }
-
-  .back-to-top .bi:hover{
-  color: #354f35;
-  }
 
   .main-page-first-part{
     background-color: rgba(88, 146, 162, 0.8);
@@ -501,4 +473,12 @@ body {
     width: 75%;
     height: 75%;
     
+  }
+
+  .tooltips{
+    visibility: hidden;
+  }
+
+  .tool:hover .tooltips{
+    visibility: visible;
   }
