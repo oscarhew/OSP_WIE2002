@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poverty</title>
+    <title>Graphs</title>
 
     <!-- Favicon -->
     <link href="assets/img/logo.png" rel="icon">
@@ -62,15 +62,62 @@
     </nav>
     <!-- End Header -->
     <div class="text-center p-10 text-2xl">
-        Here are some of the interesting graphs on <span class="font-bold">Poverty</span>
+        Here are some of the interesting graphs on <span class="font-bold">Poverty</span><span>:</span>
     </div>
-    <div class="mx-12 py-10 grid grid-cols-2">
-        <iframe
-            src="https://ourworldindata.org/explorers/poverty-explorer?time=2021&facet=none&hideControls=true&Metric=Share+in+poverty&Poverty+line=%242.15+a+day&Household+survey+data+type=Either+income+or+consumption&Show+breaks+between+less+comparable+surveys=false&country=NGA~MOZ~BOL~KEN~BGD~BOL~GEO~ZMB"
-            loading="lazy" style="width: 100%; height: 600px; border: 0px none;" class="col-span-1">
-        </iframe>
-        <div class="col-span-1">
-            
+    <div class="mx-12 py-10 grid lg:grid-cols-2">
+        <div class="col-span-1 mb-10">
+            <div class="flex tool">
+                <div class="">
+                    <i class='bx bx-book-open bx-md ml-2'></i>
+                </div>
+                <div class="tooltips mt-1 bg-black text-white px-2 py-1 rounded-2">
+                    Interative map showing poverty across the country
+                </div>
+            </div>
+            <iframe
+                src="https://ourworldindata.org/explorers/poverty-explorer?time=2021&facet=none&hideControls=true&Metric=Share+in+poverty&Poverty+line=%242.15+a+day&Household+survey+data+type=Either+income+or+consumption&Show+breaks+between+less+comparable+surveys=false&country=NGA~MOZ~BOL~KEN~BGD~BOL~GEO~ZMB"
+                loading="lazy" style="width: 100%; height: 600px; border: 0px none;">
+            </iframe>
+            <div>
+                Source: <a href="https://ourworldindata.org/" target="_blank" class="text-black hover:text-blue-500">Our
+                    World in Data</a>
+            </div>
+            <div class="text-justify mt-3">
+                The visual above is an interactive data visualization tool called "Poverty Explorer" from <span
+                    class="font-bold">Our
+                    World in Data.</span> It allows users to explore poverty rates in various countries based on
+                different poverty
+                lines and data sources. The tool displays a world map with highlighted countries and shows the
+                percentage of the population
+                living in poverty in each country based on a poverty line of $2.15 per day. Users can adjust the poverty
+                line and data source to compare poverty rates across countries, visualize changes over time, and see how
+                poverty rates vary.
+            </div>
+        </div>
+        <div class="col-span-1 container ml-6 mb-10">
+            <div class="flex tool">
+                <div class="">
+                    <i class='bx bx-book-open bx-md ml-2'></i>
+                </div>
+                <div class="tooltips mt-1 bg-black text-white px-2 py-1 rounded-2">
+                    Graph showing number of people in or not in extreme poverty over the years
+                </div>
+            </div>
+            <iframe
+                src="https://ourworldindata.org/grapher/world-population-in-extreme-poverty-absolute?time=1820..2015"
+                loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+            <div>
+                Source: <a href="https://data.worldbank.org/indicator/SI.POV.DDAY?start=2010&end=2022" target="_blank"
+                    class="text-black hover:text-blue-500">Our World in Data</a>
+            </div>
+            <div class="text-justify mt-3">
+                The visual above is an interactive data visualization tool from <span class="font-bold">Our
+                    World in Data</span> that displays the world population in extreme poverty over time. The tool
+                shows a graph that depicts the number of people living in extreme poverty (defined as living on less
+                than $1.90 per day) from the year 1820 to 2015. The graph reveals a decline in the number of people
+                living in extreme poverty over time, with a significant reduction in poverty levels from the 1990s to
+                2015. The tool allows users to adjust the time frame of the graph and download the data as needed.
+            </div>
         </div>
     </div>
 
