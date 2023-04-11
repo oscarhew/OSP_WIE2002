@@ -30,78 +30,82 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
   <!-- ======= Header ======= -->
-  <nav id="header" class="navbar sticky-top navbar-expand-lg navbar-dark gradient-custom bg-dark p-2">
-    <div class="container-fluid">
-      <a class="px-1" href="index.html">
-        <img src="assets/img/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
-        <h1 class="logo"><a href="index.html">POVERTY</a></h1>
-      </a>
+  <div id="content">
+    <nav id="header" class="navbar sticky-top navbar-expand-lg navbar-dark gradient-custom bg-dark p-2">
+      <div class="container-fluid">
+        <a class="px-1" href="index.html">
+          <img src="assets/img/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
+          <h1 class="logo"><a href="index.html">POVERTY</a></h1>
+        </a>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
-          <li class="nav-item"><a class="nav-link" href="effects.html">Effects</a></li>
-          <li class="nav-item"><a class="nav-link" href="solution.html">Solutions</a></li>
-          <li class="nav-item"><a class="nav-link" href="graphs.html">Graphs</a></li>
-          <li class="nav-item"><a class="nav-link" href="organization.html">Organizations</a></li>
-        </ul>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="causes.html">Causes</a></li>
+            <li class="nav-item"><a class="nav-link" href="effects.html">Effects</a></li>
+            <li class="nav-item"><a class="nav-link" href="solution.html">Solutions</a></li>
+            <li class="nav-item"><a class="nav-link" href="graphs.html">Graphs</a></li>
+            <li class="nav-item"><a class="nav-link" href="organization.html">Organizations</a></li>
+          </ul>
+        </div>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
+    </nav>
+    <!-- End Header -->
 
+    <div class="flex-grow-1">
+      <div class="grid grid-cols-3 main-page-first-part">
+        <div class="col-span-1 container mx-32 my-48">
+          <h2 class="text-white text-5xl font-extrabold my-3">Poverty</h2>
+          <p class="text-white text-md font-semibold mb-8 text-justify">
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </nav>
-  <!-- End Header -->
+            The term poverty refers to the state or condition in which
+            people or communities lack the financial resources and
+            essentials for a minimum standard of living. As such, their
+            basic human needs cannot be met. Poverty-stricken people and
+            families may go without proper housing, clean water, healthy
+            food, and medical attention.
 
-  <div class="flex-grow-1">
-    <div class="grid grid-cols-3 main-page-first-part">
-      <div class="col-span-1 container mx-32 my-48">
-        <h2 class="text-white text-5xl font-extrabold my-3">Poverty</h2>
-        <p class="text-white text-md font-semibold mb-8 text-justify">
-
-          The term poverty refers to the state or condition in which
-          people or communities lack the financial resources and
-          essentials for a minimum standard of living. As such, their
-          basic human needs cannot be met. Poverty-stricken people and
-          families may go without proper housing, clean water, healthy
-          food, and medical attention.
-
-        </p>
-        <a href="#" class="bg-white py-2 px-6 rounded-2 text-black border-2 hover:border-red-900">Read
-          More</a>
-      </div>
-      <div class="col-span-2">
-        <img src="assets/img/slide/index_background.jpg" width="750" class="my-32 ml-56" alt="">
-      </div>
-    </div>
-
-
-    <!-- Level of Poverty Picture-->
-    <section class="">
-      <div class="container-fliud">
-        <div class="section-title">
-          <h2>Levels Of Poverty</h2>
-          <img src="assets/img/levelOfPoverty.png" class="image-center">
-          <p class="italic">Reference: https://www.jrf.org.uk/our-work/what-is-poverty</p>
+          </p>
+          <a href="#" id="readmore" class="bg-white py-2 px-6 rounded-2 text-black border-2 hover:border-red-900">Read
+            More</a>
+        </div>
+        <div class="col-span-2">
+          <img src="assets/img/slide/index_background.jpg" width="750" class="my-32 ml-56" alt="">
         </div>
       </div>
-    </section>
 
-    <!-- Video -->
-    <div class="video-wrapper">
-      <h3 class="text-center text-4xl">Watch video below to understand more about Poverty</h3>
-      <iframe class="mx-auto mt-5" src="https://www.youtube.com/embed/oMr5JjEOzkY" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
+
+      <!-- Level of Poverty Picture-->
+      <section class="">
+        <div class="container-fliud">
+          <div class="section-title">
+            <h2>Levels Of Poverty</h2>
+            <img src="assets/img/levelOfPoverty.png" class="image-center">
+            <p class="italic">Reference: https://www.jrf.org.uk/our-work/what-is-poverty</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video -->
+      <div class="video-wrapper">
+        <h3 class="text-center text-4xl">Watch video below to understand more about Poverty</h3>
+        <iframe class="mx-auto mt-5" src="https://www.youtube.com/embed/oMr5JjEOzkY" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
 
     <!-- ======= Team Section ======= -->
     <section class="team section-bg">
@@ -148,29 +152,75 @@
             </div>
           </div>
 
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+    </div>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="mt-auto">
+      <div class="container">
+        <h3>Poverty</h3>
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; 2023 Copyright <strong><span>Poverty</span></strong>. All Rights Reserved
         </div>
       </div>
-    </section>
-    <!-- End Team Section -->
-
+    </footer>
+    <!-- End Footer -->
   </div>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="mt-auto">
-    <div class="container">
-      <h3>Poverty</h3>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-      <div class="copyright">
-        &copy; 2023 Copyright <strong><span>Poverty</span></strong>. All Rights Reserved
-      </div>
+  <div id="contact-us-overlay">
+    <div id="contact-us-window">
+      <h2>Contact Us</h2>
+      <form id="contact-us-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
     </div>
-  </footer>
-  <!-- End Footer -->
+  </div>
+
+  <script>$(document).ready(function () {
+      //Show contact us window after clicking read more
+      $('#readmore').on('click', function (event) {
+        $('#contact-us-overlay').fadeIn();
+        $('#content').addClass('blur');
+      });
+
+      // Show contact us window after 5 seconds
+      // setTimeout(function () {
+      //   $('#contact-us-overlay').fadeIn();
+      //   $('#content').addClass('blur');
+      // }, 5000);
+
+      // Close contact us window when clicking outside of it
+      $(document).on('click', function (event) {
+        if (event.target == $('#contact-us-overlay')[0]) {
+          $('#contact-us-overlay').fadeOut();
+          $('#content').removeClass('blur');
+        }
+      });
+
+      // Submit contact us form
+      $('#contact-us-form').on('submit', function (event) {
+        event.preventDefault();
+        alert('Thank you for contacting us! We will get back to you soon.');
+        $('#contact-us-overlay').fadeOut();
+        $('#content').removeClass('blur');
+      });
+    });</script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
